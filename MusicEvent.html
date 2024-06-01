@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Event</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Music Event 2024</h1>
+        <p>Join us for an unforgettable night of live music!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#artists">Artists</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About the Event</h2>
+            <p>Experience the best live performances by top artists from around the world. Don't miss out on this epic night of music and fun!</p>
+        </section>
+        <section id="artists">
+            <h2>Featured Artists</h2>
+            <p>Stay tuned for the announcement of our star-studded lineup!</p>
+        </section>
+        <section id="tickets">
+            <h2>Buy Tickets</h2>
+            <p>Tickets are available now. Get yours before they sell out!</p>
+            <button onclick="buyTickets()">Buy Now</button>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Get in touch with us.</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Music Event. All rights reserved.</p>
+    </footer>
+</body>
+</html>
